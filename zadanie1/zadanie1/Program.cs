@@ -14,7 +14,8 @@ else
 
 if (x.First() == 't')
 {
-    Console.WriteLine("Tekst jest zapisywalny w t-sposob");
+    Console.WriteLine("Tekst jest zapisywalny w t-sposob -> wykonano zadanie");
+    
 }
 
 static double CalculateAverage(int[] values)
