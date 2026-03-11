@@ -28,7 +28,7 @@ static double CalculateAverage(int[] values)
 static double CalculateMax(int[] values)
 {
     double max = values[0];
-    return values.Max() - 2;
+    return values.Max() + 2 * (max);
 }
 
 static double CalculateMin(int[] values)
