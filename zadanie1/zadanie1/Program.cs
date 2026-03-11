@@ -7,3 +7,7 @@ if (x.Length > 10)
 {
     Console.WriteLine("Tekst krotszy od 10");
 }
+else
+{
+    Console.WriteLine("Tekst jest rowny 10");
+}
