@@ -20,5 +20,6 @@ if (x.First() == 't')
 static double CalculateAverage(int[] values)
 {
     double sum = 0;
+    return values.Sum(x => (sum += x)) / values.Length;
     
 }
