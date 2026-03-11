@@ -11,3 +11,8 @@ else
 {
     Console.WriteLine("Tekst jest rowny 10");
 }
+
+if (x.First() == 't')
+{
+    Console.WriteLine("Tekst jest zapisywalny w t-sposob");
+}
