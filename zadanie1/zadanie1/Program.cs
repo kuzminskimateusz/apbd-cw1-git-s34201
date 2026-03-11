@@ -16,3 +16,9 @@ if (x.First() == 't')
 {
     Console.WriteLine("Tekst jest zapisywalny w t-sposob");
 }
+
+static double CalculateAverage(int[] values)
+{
+    double sum = 0;
+    
+}
